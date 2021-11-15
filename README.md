@@ -9,3 +9,5 @@ start.py - Uses library for word generation. Can't compile to a single exe
 
 
 start2.py - Uses API for word generation. Able to compile to a single exe
+
+Release(exe): https://github.com/peguiny/SpamPhisers/releases/tag/release
