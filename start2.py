@@ -91,7 +91,7 @@ def main():
 count = 0
 delay = 0
 x = int(input("How many fake seed: "))
-delay = int(input("0 for no delay \nr for random 0-5 min delay\nDelay in seconds: "))
+delay = input("0 for no delay \nr for random 0-5 min delay\nDelay in seconds: ")
 
 while count < x:
     seed_str, password, ip = main()
@@ -103,5 +103,5 @@ while count < x:
     if str(delay) == "r":
         time.sleep(randint(1,360))
     else:
-        time.sleep(delay)
+        time.sleep(int(delay))
  
